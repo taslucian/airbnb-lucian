@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 550px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  width: 550px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 30px;
+  box-shadow: 0px 3px 7px rgba(0,0,0,0.3)
+}
+
+section{
+  padding: 20px 35px;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo{
+  max-width: 400px;
+  align-self: center;
+}
+
+.hiro--header{
+  margin-bottom: 16px;
+}
+
+.hero--text{
+  margin-top: 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card-container{
+  width: 176px;
+}
+
+.image-container{
+  position: relative;
+  margin-bottom: -15px;
+}
+
+.card-image{
+  width: 176px;
+  height: 235px;
+}
+
+.sold-out{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 3px 8px;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.text-container{
+  font-size: 14px;
+  
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+  margin-bottom: -25px;
+
+}
+
+.rating-image{
+  width: 14px;
+  margin-right: 5px;
+}
+
+.grey-text{
+  color: #918E9B;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.person{
+  margin-top: -12px;
+}
+
